@@ -1,0 +1,226 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #f5f5f5;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+body{
+    background: #ebebeb;
+}
+header{
+    height: 130px;
+    background: #fff;
+}
+header .cont{
+    width: 100%;
+    height: 100%;
+}
+header .cont .top{
+    height: 60%;
+    display: flex;
+    background: #f5f5f5;
+    padding: 1%;
+    box-sizing: border-box;
+}
+header .cont .top .logo{
+    width: 10%;
+}
+header .cont .top .seb{
+    width: 55%;
+    justify-content: space-around;
+}
+header .cont .top .seb .box{
+    line-height: 2.5; 
+    background: #fff;      
+    border-radius: 10px;
+    margin: 5px 10px 0 0;
+}
+header .cont .top .seb .box input{
+    width: 95%;
+    outline: 0;
+    border: 0;
+}
+header .cont .top .seb .box i{
+    color: #555;
+}
+header .cont .top .loc{
+    width: 13%;    
+}
+header .cont .top .loc a{
+   display: flex;
+   text-decoration: none;
+   color: #212121;
+   margin-right: 5px;
+}
+header .cont .top .loc a .info{
+    margin-top: 5px;
+    font-size: 16px;
+}
+header .cont .top .ac{
+    width: 10%;
+}
+header .cont .top .ac a{
+    display: flex;
+    color: #212121;
+    text-decoration: none;
+    margin-right: 5px;
+}
+header .cont .top .ac a .info{
+    margin: 10px 2px 0 0;
+}
+header .cont .top .cart{
+    width: 10%;    
+}
+header .cont .top .cart .circle{
+    width: 60px;
+    height: 60px;
+    background: #ff1744;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;    
+}    
+header .cont .top .cart .circle a i{
+    color: #fff;
+    font-size: 1.5rem;    
+} 
+header .cont .bottem ul{
+    display: flex;
+    list-style: none;
+    padding: 1%;
+}
+header .cont .bottem ul li{
+    width: 9%;
+    white-space: nowrap;
+    text-align: center;
+}
+header .cont .bottem ul li a{
+    color: #212121;
+    text-decoration: none; 
+}
+header .cont .bottem ul li a i{
+    font-size: 1.2rem;
+}
+main section#op .w{
+    width: 90%; 
+    padding:2% 5%;  
+}
+main section#op .w a img{
+    width: 100%;
+    border-radius: 10px;    
+}
+main section#ads .x{
+    width: 90%;
+    display: flex;    
+}
+main section#ads .x .pic{
+    display: flex;    
+    width: 25%;
+    align-items: center;    
+}  
+main section#ads .x .pic .image{
+    width: 100%;
+    color: #212121;
+    text-decoration: none;
+    padding: 0 10%;
+}
+main section#ads .x .pic .text{ 
+   white-space: nowrap;  
+   padding: 0 0 0 40%;
+}
